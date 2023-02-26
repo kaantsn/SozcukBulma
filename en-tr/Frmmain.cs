@@ -19,7 +19,7 @@ namespace en_tr
         }
 
         //Datasource=xx ; kısmına kendi sql adresimizi yazıyoruz.
-        SqlConnection conn = new SqlConnection("Data Source=K-T;Initial Catalog=dbSozluk;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("Data Source=;Initial Catalog=dbSozluk;Integrated Security=True");
 
         public string dil1;
         public string dil2;
